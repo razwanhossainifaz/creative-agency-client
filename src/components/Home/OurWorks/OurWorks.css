@@ -1,0 +1,12 @@
+.testimonials{
+    text-align: center;
+    background: #111430;
+    padding: 20px; 
+}
+
+.carousel-inner{
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+
+}
