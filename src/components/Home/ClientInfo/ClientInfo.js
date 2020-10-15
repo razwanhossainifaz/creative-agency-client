@@ -27,20 +27,14 @@ const infosData = [
         id: 5,
         img: airbnb
     },
-    {
-        id: 6,
-        img: airbnb
-    },
 ]
 
 const ClientInfo = () => {
     return (
-        <section className="d-flex justify-content-center mt-3">
-            <div className="w-75 row">
-                {
-                    infosData.map(info => <InfoCard info = {info} key = {info.id}></InfoCard>)
-                }
-            </div>
+        <section className="d-flex container text-center">
+            {
+                infosData.map(info => <InfoCard info = {info} key = {info.id}></InfoCard>)
+            }
         </section>
     );
 };

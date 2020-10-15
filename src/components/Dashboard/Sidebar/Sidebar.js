@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './Sidebar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCog, faSignOutAlt, faShoppingCart, faTaxi, faCommentDots, faPlus, faUserShield } from '@fortawesome/free-solid-svg-icons';
-import {  faFileAlt } from '@fortawesome/free-regular-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -38,7 +37,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/dashboard/ad" className="text-white" >
+                            <Link to="/dashboard/makeadmin" className="text-white" >
                             <FontAwesomeIcon icon={faUserShield} /> <span>Make Admin</span>
                             </Link>
                         </li>
