@@ -7,7 +7,7 @@ const ReviewDetail = () => {
     const onSubmit = data => {
 
         // insert review into database
-        fetch('http://localhost:5000/addReview', {
+        fetch('https://thawing-hollows-35596.herokuapp.com/addReview', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

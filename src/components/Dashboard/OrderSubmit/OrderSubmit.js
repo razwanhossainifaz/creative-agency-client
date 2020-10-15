@@ -5,7 +5,7 @@ const OrderSubmit = () => {
     const { register, handleSubmit, errors } = useForm();
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://thawing-hollows-35596.herokuapp.com/addOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
